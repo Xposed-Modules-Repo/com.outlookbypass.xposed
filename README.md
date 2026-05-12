@@ -12,16 +12,17 @@ Built against the modern [libxposed API 101](https://github.com/libxposed/api). 
 
 ## Install
 
-1. Grab the APK from the [Releases](../../releases) page.
-2. Install it.
-3. Open LSPosed Manager → enable the module → make sure Outlook is in scope.
-4. Force-stop Outlook, and enjoy!
+1. Install.
+2. Open LSPosed Manager → enable the module → make sure Outlook is in scope.
+3. Force-stop Outlook, and enjoy!
 
 If something looks off: `adb logcat -s OutlookPolicyBypass`.
 
 ## Contributing
 
 Open an issue or PR. Bug reports with the Outlook version + Android version are extra welcome.
+
+Source code: https://github.com/takattowo/OutlookDevicePolicyBypass
 
 ## Build (CI)
 
